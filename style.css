@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(204, 43%, 93%);
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+    width: 38rem;
+    position: absolute;
+    right: 30%;
+    top: 18%;
+    border-radius: 2%;
+    font-family: 'Karla', sans-serif;
+}
+
+.main h2{
+    color:hsl(179, 62%, 43%);
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.main h3{
+    color:hsl(71, 73%, 54%);
+    margin-left: 5%;
+}
+.main p{
+    color:hsl(218, 22%, 67%);
+    margin-left: 5%;
+    line-height: 150%;
+}
+.top-container{
+    background-color: white;
+    height: 13rem;
+    width: 38rem;
+    position: absolute;
+    top: 0;
+    border-radius: 2% 2% 0 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.bottom-left{
+    background-color: hsl(179, 62%, 43%);
+    height: 15rem;
+    width: 19rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Karla', sans-serif;
+    border-radius: 0 0 0 2%;
+}
+
+.bottom-left h1{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.bottom-left h3{
+    position: relative;
+    top: 8%;
+    left: 5%;
+    color: hsl(204, 43%, 93%);
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+}
+
+.bottom-left span{
+    font-size: 45%;
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.7rem;
+    color: hsla(203, 44%, 93%, 0.829);
+    font-weight: 200;
+}
+
+.bottom-left p{
+    color: hsl(204, 43%, 93%);
+    position: relative;
+    left: 5%;
+    top: -3%;
+}
+
+.bottom-left button{
+    width: 15rem;
+    height: 2.8rem;
+    border-radius: 0.35rem;
+    background-color: hsl(71, 73%, 54%);
+    position: relative;
+    left: 10%;
+    border-color: hsl(71, 73%, 54%);
+    outline: none;
+}
+
+.bottom-left button h3{
+    position: absolute;
+    left: 32%;
+    top: -10%;
+}
+
+.bottom-right{
+    background-color: hsl(179, 54%, 55%);
+    height: 15rem;
+    width: 19rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Karla', sans-serif;
+    border-radius: 0 0 2% 0;
+}
+
+.bottom-right h4{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    position: relative;
+    top: 8%;
+    left: 15%;
+}
+.bottom-right p{
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    left: 10%;
+    top: 5%;
+    font-size: smaller;
+    font-family: 'Karla', sans-serif;
+    color:hsl(204, 43%, 93%);
+}
+
+
